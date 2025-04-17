@@ -1,41 +1,29 @@
-# I3--IMT541
+# I3 : Weather Data Comparison: Addis Ababa & Seattle (April 17–27, 2025)
+
 ## Overview
 
-This lightweight application focuses on transforming structured web content from the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) into a more interactive, educational format. The application uses structured health information about diabetes, its causes, and effects on the human body, and visualizes key takeaways in a simplified and accessible form.
+This project uses two CSV datasets containing 10 days of weather data for **Addis Ababa, Ethiopia** and **Seattle, Washington, USA**, from **April 17 to April 27, 2025**. The datasets include daily **maximum and minimum temperatures (in Fahrenheit)** and **precipitation levels**.
 
-The application was created as part of an information structures assignment to demonstrate how publicly available health content can be processed, visualized, and presented to support better understanding for diverse audiences, especially those new to a topic like diabetes.
+The goal of this project is to **create visual graphs** comparing the temperature and precipitation trends between the two cities over the same time period. This comparison aims to illustrate weather differences across vastly different climates and geographic regions.
 
-## Objectives
+### Files in This Project
 
-- Work with real-world structured health data to analyze and visualize essential concepts.
-- Demonstrate how digital health education can be made portable and more accessible.
-- Use a clear, topic-grouped structure to support flexible browsing and updating.
-- Reflect on the transformation of a formal government health site into an easy-to-understand learning tool.
+- `addis_weather_apr_17_27.csv`: Contains 10 days of weather data for Addis Ababa.
+- `seattle_weather_apr_17_27.csv`: Contains 10 days of weather data for Seattle.
 
-## Data Source
+Each file includes:
+- `date`: The date of the recorded data.
+- `tempmin_f`: Minimum temperature (°F)
+- `tempmax_f`: Maximum temperature (°F)
+- `precipitation`: Precipitation in inches
 
-- Website: [What is Diabetes? – NIDDK](https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes )
-- Primary Purpose: To educate people about diabetes, including what it is, how it happens, and its impact on health.
-- Information Structure: The source content is grouped by topic, with expandable/collapsible sections and embedded links for further learning.
+## Instructions
 
-## Application Design
+This section will guide you through the process of:
+1. Preparing the data in Python.
+2. Creating a graph comparing the temperature ranges for both cities.
+3. Creating a graph comparing precipitation levels for both cities.
+4. Reflecting on the visual results and writing up observations.
 
-- Format Used: HTML + CSS + JavaScript (original site) ➝ JSON structure for parsing.
-- Output: Interactive webpage or notebook visual that summarizes diabetes types, symptoms, and treatment in simplified visuals or lists.
-- Data Type: Static, educational, reliable (from a government source).
-- Visualization Goal: Turn text-based content into charts, infographics, and visual narratives.
+*Next step coming soon.*
 
-## Technology Stack
-
-- Python: Used for extracting and parsing the content structure.
-- Jupyter Notebook / Google Colab: For building an interactive prototype and displaying the results.
-- pandas: For optional tabular structuring of content.
-- plotly or matplotlib: To visualize concepts such as insulin response or types of diabetes.
-- GitHub: For project version control and sharing.
-
-## Installation and Running Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/diabetes-info-visualizer.git
-   cd diabetes-info-visualizer
