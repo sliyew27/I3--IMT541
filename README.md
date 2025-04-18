@@ -27,8 +27,22 @@ This project presents a comparison of maximum and minimum daily temperatures bet
 
 https://colab.research.google.com/github/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb
 
-##The Final outputs:
-   - Line graph comparing daily maximum and minimum temperatures between Addis Ababa and Seattle
-   - Line graph comparing daily maximum and minimum precipitation between Addis Ababa and Seattle.
+##The Final outputs# Instructions to View Weather Comparison Graphs (Addis Ababa vs Seattle)
+
+Follow the steps below to open and run this notebook in Google Colab:
+
+1. **Open** the `weather_comparison_colab.ipynb` file (located on the left panel if you're viewing this repo on GitHub).
+2. Click the **"Open in Colab"** button at the top of the notebook.
+3. You will be redirected to a Google Colab page with the Python code preloaded.
+4. **Run the notebook:**
+   - Press the **Play** button (▶️) next to each code cell, one by one, starting from the top.
+5. Once you run all the cells, you will see two visual graphs generated:
+
+-  A visual comparison of Addis Ababa, Ethiopia and Seattle, Washington from **April 17 to April 27, 2025**.
+- Precipitation recorded in both cities for the same 10-day period.
+
+---
+
+✅ Enjoy exploring the differences in climate!
 
 This project demonstrates how structured weather data can be effectively visualized to support comparative analysis across geographical locations. It also illustrates the value of combining Excel data with Python-based tools for educational and analytical purposes.
