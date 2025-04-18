@@ -1,27 +1,24 @@
-# I3 : Weather Data Comparison: Addis Ababa & Seattle (April 17–27, 2025)
+# Weather Comparison: Addis Ababa vs Seattle (April 17–27, 2025)
 
 ## Overview
 
-This project uses two CSV datasets containing 10 days of weather data for **Addis Ababa, Ethiopia** and **Seattle, Washington, USA**, from **April 17 to April 27, 2025**. The datasets include daily **maximum and minimum temperatures (in Fahrenheit)** and **precipitation levels**.
+This project presents a comparison of maximum and minimum daily temperatures between Addis Ababa, Ethiopia and Seattle, Washington for the period April 17 to April 27, 2025. The analysis is based on structured weather data compiled in CSV format and visualized through Python. The primary objective is to provide a clear graphical representation of temperature variations between the two cities over the selected timeframe.
 
-The goal of this project is to **create visual graphs** comparing the temperature and precipitation trends between the two cities over the same time period. This comparison aims to illustrate weather differences across vastly different climates and geographic regions. 
+## Files in This Project
 
-### Files in This Project
+- `Addis and Seattle Weather 4_17_25-4_27_25.xlsx`: Excel workbook containing daily weather data for Addis Ababa and Seattle. It includes three sheets:
+  - `Addis`: Temperature data for Addis Ababa
+  - `Seattle`: Temperature data for Seattle
+  - `Combined`: A merged dataset used for comparison and visualization
 
-- `addis_weather_apr_17_27.csv`: Contains 10 days of weather data for Addis Ababa, Ethiopia.
-- `seattle_weather_apr_17_27.csv`: Contains 10 days of weather data for Seattle, Washington.
+- `weather_comparison_colab.ipynb`: Python code that runs to show the graphs
+- `README.md`: This documentation file providing an overview of the project, file contents, and instructions for viewing the code and results.
 
-Each file includes:
-- `date`: The date of the recorded data.
-- `tempmin_f`: Minimum temperature (°F)
-- `tempmax_f`: Maximum temperature (°F)
-- `precipitation`: Precipitation in inches
-
-## Instructions
-
-This section will guide you through the process of viewing the visuals prepared using python:
-1. Open the weather_comparison_colab.ipynb that you find under files or simply go to this link (https://github.com/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb) 
-2. Next, click on the Google Colab button at the top or simply go to this link (https://colab.research.google.com/github/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb)
-3. As you scroll down, you should be able to see the code I used and the graphs created due to that code.
+- Line graph comparing daily maximum and minimum temperatures between Addis Ababa and Seattle
 
 
+##The Final outputs:
+   - Line graph comparing daily maximum and minimum temperatures between Addis Ababa and Seattle
+   - Line graph comparing daily maximum and minimum precipitation between Addis Ababa and Seattle.
+
+This project demonstrates how structured weather data can be effectively visualized to support comparative analysis across geographical locations. It also illustrates the value of combining Excel data with Python-based tools for educational and analytical purposes.
