@@ -19,10 +19,8 @@ Each file includes:
 
 ## Instructions
 
-This section will guide you through the process of:
-1. Preparing the data in Python.
-2. Creating a graph comparing the temperature ranges for both cities.
-3. Creating a graph comparing precipitation levels for both cities.
-4. Reflecting on the visual results and writing up observations.
+This section will guide you through the process of viewing the visuals prepared using python:
+1. Open the weather_comparison_colab.ipynb that you find under files.
+2. Once you open it, you should see a section at the top that says Google Colab
 
 
