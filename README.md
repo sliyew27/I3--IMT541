@@ -10,7 +10,16 @@ This project presents a comparison of maximum and minimum daily temperatures bet
   - `Addis`: Temperature data for Addis Ababa
   - `Seattle`: Temperature data for Seattle
   - `Combined`: A merged dataset used for comparison and visualization
+    
+- `addis_weather_apr_17_27.csv`  
+  CSV file containing raw weather data for Addis Ababa including temperature and precipitation.
 
+- `seattle_weather_apr_17_27.csv`  
+  CSV file containing raw weather data for Seattle including temperature and precipitation.
+
+- `addis_seattle_combined_4_17_to_4_27.csv`  
+  Combined dataset in CSV format with merged weather data from both cities, used for visual comparison.
+  
 - `weather_comparison_colab.ipynb`: Python code that runs to show the graphs
 - `README.md`: This documentation file providing an overview of the project, file contents, and instructions for viewing the code and results.
 
