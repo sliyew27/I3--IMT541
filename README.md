@@ -25,6 +25,7 @@ This project presents a comparison of maximum and minimum daily temperatures bet
 
 - Line graph comparing daily maximum and minimum temperatures between Addis Ababa and Seattle
 
+https://colab.research.google.com/github/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb
 
 ##The Final outputs:
    - Line graph comparing daily maximum and minimum temperatures between Addis Ababa and Seattle
