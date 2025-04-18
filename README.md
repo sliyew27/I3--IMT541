@@ -39,5 +39,7 @@ Follow the steps below to open and run this notebook in Google Colab:
 
 ---
 
-
 This project demonstrates how structured weather data can be effectively visualized to support comparative analysis across geographical locations. It also illustrates the value of combining Excel data with Python-based tools for educational and analytical purposes.
+
+- **Github link**: (https://github.com/sliyew27/I3--IMT541/tree/main) 
+- **Google Colab link**: (https://colab.research.google.com/github/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb#scrollTo=cell-02)
