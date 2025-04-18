@@ -21,6 +21,7 @@ Each file includes:
 
 This section will guide you through the process of viewing the visuals prepared using python:
 1. Open the weather_comparison_colab.ipynb that you find under files or simply go to this link (https://github.com/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb) 
-2. Next, click on the Google Colab button at the top or simply go to this link (
+2. Next, click on the Google Colab button at the top or simply go to this link (https://colab.research.google.com/github/sliyew27/I3--IMT541/blob/main/weather_comparison_colab.ipynb)
+3. As you scroll down, you should be able to see the code I used and the graphs created due to that code.
 
 
